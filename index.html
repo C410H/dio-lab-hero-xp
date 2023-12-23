@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Herói</title>
+
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="main">
+
+        <div class="img">
+            <img src="img/hero.png" alt="hero">
+        </div>
+
+    <br>
+
+        <div class="form">
+            <h2>🏹 Descubra o seu Nivel, Herói 🗡️</h2>
+
+        <br>
+
+            <label for="name">Nome:</label>
+        <br>
+            <input type="text" name="nickname" id="nickname" onblur="meuNivel()">
+        <br>
+
+            <label for="name">XP:</label>
+        <br>
+            <input type="number" name="xp" id="xp" onblur="meuNivel()">
+        <br>
+
+            <div class="nivel" id="nivel">
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
